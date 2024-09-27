@@ -5,6 +5,8 @@
 
 # SmartDebit report duplicates
 
+Created by: Chris Boxall (FinDock)
+
 tbd
 
 ## Installation / Deployment
