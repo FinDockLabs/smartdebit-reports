@@ -5,9 +5,16 @@
 
 # SmartDebit report duplicates
 
-Created by: Chris Boxall (FinDock)
+Created by: [Chris Boxall (FinDock)](https://www.linkedin.com/in/chris-boxall-4144b5a5/)
+Contact: `chris@findock.com`
 
-tbd
+With Smart Debit automated reports we poll for BACS reports daily, these reports will duplicate for a few days while they are still available within the poll request. We already ensure that no action is taken on duplicates but this flow is designed to run daily and change the status of any duplicates so you can recognise them and respond. You can choose to delete duplicates and ensure any other scheduled flows that could be triggered off the back of inbound reports don’t run.
+
+Repository contains
+- One scheduled Flow to loop through and flag duplicate BACS reports
+
+Requirements
+- BACS for FinDock package installed
 
 ## Installation / Deployment
 
